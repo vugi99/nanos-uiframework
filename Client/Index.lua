@@ -31,7 +31,7 @@ local function UIFrameworkBase()
     self.webui = WebUI(
         "UIFramework",
         "file://ui/hud.html",
-        WebUIVisibility.Visible
+        WidgetVisibility.Visible
     )
     --SetWebAnchors(ui, 0, 0, 1, 1)
     --SetWebAlignment(ui, 0, 0)

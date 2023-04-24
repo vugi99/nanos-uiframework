@@ -14,7 +14,7 @@ function CreateExBrowser()
     uiFrameworkLogo.mode("contain")
     uiFrameworkLogo.setCSS(ImageStyle)
     --uiFrameworkLogo.appendTo(UIFramework)
-    uiFrameworkLogo.setImage("package://" .. Package.GetPath() .. "/Client/resources/UIFrameworkLogo.png")
+    uiFrameworkLogo.setImage("package://" .. Package.GetName() .. "/Client/resources/UIFrameworkLogo.png")
 
 
     -- set position to right bottom for the help
